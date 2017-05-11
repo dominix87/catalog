@@ -1,0 +1,172 @@
+@import url(reset.css);
+/*--------------------------Подключение шрифтов-------------------------------*/
+@font-face {
+	font-family: Circular-Black; 
+	src: url("../fonts/Circular-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Circular-Bold;
+	src: url("../fonts/Circular-Bold.ttf") format("trutype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: Circular-Book;
+	src: url("../fonts/Circular-Book.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: Circular-Medium;
+	src: url("../fonts/Circular-Medium.ttf") format("truetype");
+	font-size: normal;
+	font-weight: normal;
+}
+/*--------------------------Подключение шрифтов-------------------------------*/
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+body{
+	outline: 1px solid black;
+	max-width: 1450px;
+	margin: 0 auto;
+}
+
+/*----------------------------Начало Header----------------------------*/
+header {
+	height: 68px;
+	border-bottom: 2px solid #B9CAE6;
+}
+
+.logo {
+	padding: 20px 15px;
+	float: left;
+}
+
+.nav_bar {
+	outline: 1px solid black;
+	float: right;
+	padding: 27px;
+}
+.nav_bar li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.nav_bar li a {
+	text-decoration: none;
+	font-family: Circular-Medium;
+	font-size: 14px;
+	color: #323c47;
+}
+
+/*---------------------------Конец Header----------------------------*/
+
+
+/*----------------------------Начало Left----------------------------*/
+#left {
+	max-width: 1050px;
+	width: 75%;
+	outline: 1px solid red;
+	float: left;
+}
+.result {
+	padding: 20px 15px;
+	background-color: #E2E9F5;
+}
+.result p {
+	display: inline-block;
+}
+.result span {
+	float: right;
+}
+.item_result{
+	padding: 10px 33px;
+	//width: 100%;
+}
+
+.item{
+	border: 1px solid #ebf1fa;
+	padding-right: 35px;
+	position: relative;
+}
+.item img {
+	display: block;
+}
+.rating img {
+	display: inline-block;
+}
+.rating p {
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 12px;
+	color: rgba(50, 60, 71, 0.7);
+	font-family: Circular-Bold;
+	letter-spacing: 3px;
+	padding-bottom: 12px;
+}
+.info	{
+	position: absolute;
+	top: 5px;
+	left: 340px;
+}
+.info h2 {
+	color: #323c47;
+	font-size: 22px;
+	font-family: Circular-Medium;
+	padding-bottom: 35px;
+}
+.option {
+	max-width: 450px;
+}
+.option li {
+	display: inline-block;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	list-style-position: inside;
+	color: #323c47;
+	font-size:; 16px;
+	font-family: Circular-Medium;
+}
+.option li img {
+	float: left;
+	padding-right: 5px;
+}
+.price {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.price span {
+	display: inline-block;
+	padding-right: 25px;
+}
+.price .second {
+	font-size: 20px;
+	color: #323c47;
+	font-family: Circular-Medium;
+}
+.price .first {
+	font-size: 12px;
+	color: rgba(50, 60, 71, 0.7);
+	font-family: Circular-Medium;
+	text-transform: uppercase;
+}
+
+/*---------------------------Конец Left----------------------------*/
+#right {
+	float: right;
+	max-width: 395px;
+	width: 24%;
+	margin: 0 auto;
+	outline: 1px solid green;
+}
+/*----------------------------Начало Right----------------------------*/
+/*---------------------------Конец Right----------------------------*/
